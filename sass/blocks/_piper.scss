@@ -1,0 +1,19 @@
+.piper {
+    min-height: 403px;
+    background-image: url("../img/baner1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    &__title {
+        font-family: $first-fone;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 72px;
+        line-height: 84px;
+        text-align: center;
+        color: $third-color;
+        margin-bottom: 0;
+    }
+}

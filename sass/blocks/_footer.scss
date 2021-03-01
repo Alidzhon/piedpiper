@@ -1,0 +1,16 @@
+.footer {
+    padding-top: 50px;
+    padding-bottom: 62px;
+    background-color: #333333;
+    &__text {
+        font-family: $first-fone;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: $third-color;
+        margin-bottom: 0;
+    }
+
+}

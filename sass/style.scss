@@ -1,0 +1,19 @@
+@import 'base/variables';
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/piper';
+@import 'blocks/problem';
+@import 'blocks/text';
+@import 'blocks/introducing';
+@import 'blocks/team';
+@import 'blocks/footer';
+@import 'blocks/media';

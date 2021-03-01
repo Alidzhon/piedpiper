@@ -1,0 +1,46 @@
+.team {
+    padding-top: 58px;
+    padding-bottom: 112px;
+    background-color: #eeeeee;
+    &__title {
+        font-family: $first-fone;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 75px;
+        text-align: center;
+        color: $first-color;
+        margin-bottom: 0;
+    }
+    &__members {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    &__member {
+        margin-top: 30px;
+        text-align: center;
+        flex-basis: 33%;
+        padding: 24px;
+        box-sizing: border-box;
+    }
+    &__name {
+        margin-bottom: 0;
+        margin-top: 12px;
+        font-family: $first-fone;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        color: $first-color;
+    }
+    &__role {
+        font-family: $first-fone;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: $second-color;
+    }
+}
